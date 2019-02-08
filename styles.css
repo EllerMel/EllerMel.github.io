@@ -1,0 +1,13 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+  }
+  h1, h2 {
+    font-family: 'Mukta', sans-serif;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    display: block;
+  }
