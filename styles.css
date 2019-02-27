@@ -18,3 +18,11 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+.section {
+  background-color: #efefef;
+}
+
+.black {
+  color: black;
+}
