@@ -17,6 +17,13 @@ body {
   background: lightgrey;
 }
 
+.blogHeader {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  background: lightgrey;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -88,3 +95,28 @@ body {
  h2{
     color: rgb(173, 149, 211);
  }
+
+ .text {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(173, 149, 211);
+  font-size: 2.0em;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
