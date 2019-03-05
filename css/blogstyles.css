@@ -38,6 +38,12 @@ body {
   padding-left: 20px;
 }
 
+/* Project image */
+.projectimg {
+  background-color: #aaa;
+  width: 100%;
+}
+
 /* Blog image */
 .blogimg {
   background-color: #aaa;
