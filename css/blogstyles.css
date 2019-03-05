@@ -104,6 +104,10 @@ body {
     color: rgb(173, 149, 211);
  }
 
+ h4{
+  color: rgb(173, 149, 211);
+}
+ 
  .text {
   text-align: center;
   margin-top: 25px;
