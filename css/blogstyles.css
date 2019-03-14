@@ -94,6 +94,11 @@ body {
     height: auto;
   }
 
+  .accordionLink{
+    color: rgb(173, 149, 211);
+    font-size: 175%;
+}
+
 .postLink{
     color: rgb(173, 149, 211);
     font-weight: bold;

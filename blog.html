@@ -71,142 +71,177 @@
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
-      <h2 id="weekOne">Week One</h2>
-      <h5>March 1, 2019</h5>
-      <img src="/img/Project1.png" alt="Week 1" class="blogimg"
-        onclick="window.open('https://project1-campaign-website-mae.herokuapp.com', '_blank')">
-      <br>
-      <p>
-        The first week began with a lot of tutorials (such as <a class="blogLink" href="https://learngitbranching.js.org"
-          target="_blank">Learning Git</a>) and struggling with the <a class="blogLink" href="https://lab.github.com/"
-          target="_blank">Github bot</a> and it ended with the setting up of <a class="blogLink"
-          href="https://www.mamp.info/en/" target="_blank">MAMP</a> and <a class="blogLink"
-          href="https://dashboard.heroku.com/apps" target="_blank">Heroku</a>, which were both new to me.
-      </p>
-      <p>
-        The morning <a class="blogLink" href="https://www.hackerrank.com" target="_blank">Hacker Rank</a> exercises were
-        something I was looking forward to, as I have heard that whiteboard problems are prevalent in interviews, and it is
-        important to me to be able to learn how to work through them.
-      </p>
-      <p>
-        I was excited when we started on our first project, a campaign page for a fictional character, in which I chose
-        Buffy the Vampire Slayer. I had a really fun time combining all the <a class="blogLink"
-          href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank">Bootstrap</a> elements I learned about
-        during the course of the week into a cohesive site (and getting to reference Buffy pictures and information). I had
-        some elements on my page that were not sizing as I would have liked when it came to mobile, but eventually I got
-        them figured out. I really enjoyed adding and modifying the Bootstrap elements, but I admit that my page leaves a
-        bit to be desired in terms of css bling and layout. I was happy when it ran through the <a class="blogLink"
-          href="https://validator.w3.org" target="_blank">validator</a> for the first time only having two issues and one
-        warning, all of which I easily corrected. </p>
-      <p>My site can can be viewed:</p>
-      <ul>
-        <li>
-          <a class="postLink" href="https://project1-campaign-website-mae.herokuapp.com" target="_blank">Website</a> <i>(or
-            by clicking on the website image above)</i>
-        </li>
-        <li>
-          <a class="postLink" href="https://github.com/EllerMel/project1-campaign-website" target="_blank">Github Code</a>
-        </li>
-      </ul>
-      <a href="#" class="blogLink">Back to Top</a>
-    </div>
-    <div class="card">
-      <h2 id="weekTwo">Week Two</h2>
-      <h5>March 8, 2019</h5>
-      <!-- <div class="blogimg" style="height:200px;"> Website Image</div> -->
-      <p>The second week was the introduction to JavaScript. I enjoyed the <a class="blogLink"
-          href="https://www.w3schools.com/js/js_exercises.asp" target="_blank">W3Schools JavaScript Exercises</a> and also
-        the <a class="blogLink" href="https://www.learn-js.org" target="_blank">Learn JS interactive JavaScript tutorial</a>
-        as I do better with hands on learning verses just reading.</p>
-    
-      <p>This week was comprised of several exercises. On first go, it mainly involved finding existing code online and then
-        modifying it to suit the specifications. While it was certainly speedy, eventually it left kind of bitter taste in
-        that I only changed things, when I knew that I should have been trying to create it from scratch. While the thought of
-        even starting was so overwhelming, I decided with Exercise 4 - Calculator, it was time to jump off that cliff
-        and give it a go. A fellow classmate, Adam, came to the same realization; and we decided to tackle the project in a
-        pair programming way, though each on our own computers. We started out small, just doing one minor thing and making
-        sure it worked before moving onto the next. It was immensely satisfying building something from the ground up, and
-        each time a part of it worked, it was the best feeling ever. Next step will be to scrap and then figure out the css on my own.</p>
-    
-      <p>Once I survived creating that exercise from scratch, I knew that I was going to have to back and create the others
-        from scratch as well. Hover over each image to see the title, and click to be taken to its respective GitHub code.</p>
-    
-      <div class="row">
-        <div class="col center"><img src="/img/Exercise1ClockJS.png" title="Exercise 1 - Digital Clock" class="projectimg"
-            onclick="window.open('https://github.com/EllerMel/exercise1-js-digital-clock', '_blank')"></div>
-      
-        <div class="col center"><img src="/img/Exercise2CountdownJS.png" title="Exercise 2 - Countdown" class="projectimg"
-            onclick="window.open('https://github.com/EllerMel/exercise2-js-countdown', '_blank')"></div>
 
-        <div class="col center"><img src="/img/Exercise3TicTacToe.png" title="Exercise 3 - Tic Tac Toe" class="projectimg"
-              onclick="window.open('https://github.com/EllerMel/exercise3-js-tictactoe', '_blank')"></div>    
-      
-        <div class="col center"><img src="/img/Exercise4Calculator.png" title="Exercise 4 - Calculator" class="projectimg"
-            onclick="window.open('hhttps://github.com/EllerMel/exercise4-js-calculator', '_blank')"></div>
-      
-        <div class="col center"><img src="/img/Exercise5Weather.png" title="Exercise 5 - Weather App" class="projectimg"
-            onclick="window.open('https://github.com/EllerMel/exercise5-js-weather-app', '_blank')"></div>
-      </div>
-      <br>
-    
-      <p>My game changing moment was when the instructor helped me to implement borders on my grid. I am a very visual
-        person, and being able to see the layout of each of the many rows and columns on my page was wonderful. It helped
-        me to easily make changes and know that I was on the right path. Best thing ever! I will implement this every time
-        as it's simple to add and remove in just the css without having to do anything to the HTML.</p>
-    
-      <div class="row">
-        <div class="col center"><img src="img/GameChanger.png" class="blogimg"></div>
-      </div>
-      <br>
-    
-      <p>So far, this blog page has been updated with two JavaScript functions. The first is the ability to Show/Hide my Nav bar at the top of the page with a button click. The second is to personalize the 'Welcome' text under the main image with your name with an addional button click.</p>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link accordionLink" data-toggle="collapse" href="#collapseOne" id="weekOne">
+              Week One
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <h5>March 1, 2019</h5>
+              <img src="/img/Project1.png" alt="Week 1" class="blogimg"
+                onclick="window.open('https://project1-campaign-website-mae.herokuapp.com', '_blank')">
+              <br>
+              <p>
+                The first week began with a lot of tutorials (such as <a class="blogLink"
+                  href="https://learngitbranching.js.org" target="_blank">Learning Git</a>) and struggling with the <a
+                  class="blogLink" href="https://lab.github.com/" target="_blank">Github bot</a> and it ended with the
+                setting up of <a class="blogLink" href="https://www.mamp.info/en/" target="_blank">MAMP</a> and <a
+                  class="blogLink" href="https://dashboard.heroku.com/apps" target="_blank">Heroku</a>, which were both
+                new to me.
+              </p>
+              <p>
+                The morning <a class="blogLink" href="https://www.hackerrank.com" target="_blank">Hacker Rank</a> exercises were something I was looking forward to, as I have heard that whiteboard problems are prevalent in interviews, and it is important to me to be able to learn how to work through them.
+              </p>
+              <p>
+                I was excited when we started on our first project, a campaign page for a fictional character, in which I choseBuffy the Vampire Slayer. I had a really fun time combining all the <a class="blogLink"
+                  href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank">Bootstrap</a> elements I learned about during the course of the week into a cohesive site (and getting to reference Buffy pictures and information). I had some elements on my page that were not sizing as I would have liked when it came to mobile, but eventually I got them figured out. I really enjoyed adding and modifying the Bootstrap elements, but I admit that my page
+                leaves a bit to be desired in terms of css bling and layout. I was happy when it ran through the <a
+                  class="blogLink" href="https://validator.w3.org" target="_blank">validator</a> for the first time only having two issues and one warning, all of which I easily corrected. </p>
+              <p>My site can can be viewed:</p>
+              <ul>
+                <li>
+                  <a class="postLink" href="https://project1-campaign-website-mae.herokuapp.com"
+                    target="_blank">Website</a> <i>(or
+                    by clicking on the website image above)</i>
+                </li>
+                <li>
+                  <a class="postLink" href="https://github.com/EllerMel/project1-campaign-website"
+                    target="_blank">Github Code</a>
+                </li>
+              </ul>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseTwo" id="weekTwo">
+              Week Two
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <h5>March 8, 2019</h5>
+              <!-- <div class="blogimg" style="height:200px;"> Website Image</div> -->
+              <p>The second week was the introduction to JavaScript. I enjoyed the <a class="blogLink"
+                  href="https://www.w3schools.com/js/js_exercises.asp" target="_blank">W3Schools JavaScript
+                  Exercises</a> and also
+                the <a class="blogLink" href="https://www.learn-js.org" target="_blank">Learn JS interactive JavaScript
+                  tutorial</a>
+                as I do better with hands on learning verses just reading.</p>
 
-      <p>One thing I need to work on going forward is making sure that I am, at the very least, committing my project
-        changes at the end of each day. For Exercise 5 - Weather App, I only committed at the end of the project, after
-        three days! I was fortunate that nothing happened to my computer otherwise all of my hard work would have been gone.
-      </p>
-      <br>
-      <a href="#" class="blogLink">Back to Top</a>
-    </div>
-    <div class="card">
-      <h2 id="weekThree">Week Three</h2>
-      <h5>March 15, 2019</h5>
-      <img src="/img/Project2Restaurant.png" alt="Project 2" class="blogimg"
+              <p>This week was comprised of several exercises. On first go, it mainly involved finding existing code online and then modifying it to suit the specifications. While it was certainly speedy, eventually it left kind of bitter taste in that I only changed things, when I knew that I should have been trying to create it from scratch. While even starting was so overwhelming, I decided with Exercise 4 - Calculator, it was time to jump off that cliff and give it a go. A fellow classmate, Adam, came to the same realization; and we decided to tackle the project in a pair programming way, though each on our own computers. We started out small, just doing one minor thing and making sure it worked before moving onto the next. It was immensely satisfying building something from the ground up, and each time a part of it worked, it was the best feeling ever. Next step will be to scrap and then figure out the css on my own.</p>
+
+              <p>Once I survived creating that exercise from scratch, I knew that I was going to have to back and create the others from scratch as well. Hover over each image to see the title, and click to be taken to its respective GitHub code.</p>
+
+              <div class="row">
+                <div class="col center"><img src="/img/Exercise1ClockJS.png" title="Exercise 1 - Digital Clock"
+                    class="projectimg"
+                    onclick="window.open('https://github.com/EllerMel/exercise1-js-digital-clock', '_blank')"></div>
+
+                <div class="col center"><img src="/img/Exercise2CountdownJS.png" title="Exercise 2 - Countdown"
+                    class="projectimg"
+                    onclick="window.open('https://github.com/EllerMel/exercise2-js-countdown', '_blank')"></div>
+
+                <div class="col center"><img src="/img/Exercise3TicTacToe.png" title="Exercise 3 - Tic Tac Toe"
+                    class="projectimg"
+                    onclick="window.open('https://github.com/EllerMel/exercise3-js-tictactoe', '_blank')"></div>
+
+                <div class="col center"><img src="/img/Exercise4Calculator.png" title="Exercise 4 - Calculator"
+                    class="projectimg"
+                    onclick="window.open('hhttps://github.com/EllerMel/exercise4-js-calculator', '_blank')"></div>
+
+                <div class="col center"><img src="/img/Exercise5Weather.png" title="Exercise 5 - Weather App"
+                    class="projectimg"
+                    onclick="window.open('https://github.com/EllerMel/exercise5-js-weather-app', '_blank')"></div>
+              </div>
+              <br>
+
+              <p>My game changing moment was when the instructor helped me to implement borders on my grid. I am a very
+                visual person, and being able to see the layout of each of the many rows and columns on my page was wonderful.
+                It helped me to easily make changes and know that I was on the right path. Best thing ever! I will implement this
+                every time as it's simple to add and remove in just the css without having to do anything to the HTML.</p>
+
+              <div class="row">
+                <div class="col center"><img src="img/GameChanger.png" class="blogimg"></div>
+              </div>
+              <br>
+
+              <p>So far, this blog page has been updated with two JavaScript functions. The first is the ability to Show/Hide my Nav bar at the top of the page with a button click. The second is to personalize the 'Welcome' text under the main image with your name with an addional button click.</p>
+
+              <p>One thing I need to work on going forward is making sure that I am, at the very least, committing myproject changes at the end of each day. For Exercise 5 - Weather App, I only committed at the end of theproject, after three days! I was fortunate that nothing happened to my computer otherwise all of my hard work would have been gone.
+              </p>
+              <br>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseThree">
+              Week Three
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse show" data-parent="#accordion" id="weekThree">
+            <div class="card-body">
+              <h5>March 15, 2019</h5>
+              <img src="/img/Project2Restaurant.png" alt="Project 2" class="blogimg"
                 onclick="window.open('https://project2-restaurant-mae.herokuapp.com/', '_blank')">
-      <p>This week was the introduction to Project Two, creating a Restaurant menu by pulling from a API that produced a random set of food descriptions. I enjoyed using the Bootstrap Accordion feature to show and hid my menu sections. I was very happy with how it turned out, though I understand it will need to be updated to involve JavaScript/VueJS injections going foreward.</p>
+              <p>This week was the introduction to Project Two, creating a Restaurant menu by pulling from a API that produced a random set of food descriptions. I enjoyed using the Bootstrap Accordion feature to show and hid my menu sections. I was very happy with how it turned out, though I understand it will need to be updated to involve JavaScript/VueJS injections going forward. I was so happy with it, that my blog now features an Accordion! Also I just found this <a class="blogLink" href="https://scotch.io/courses/getting-started-with-vue/vue-events-building-an-accordion" target="_blank">VueJS accordion tutorial</a> to help me to better build this site going forward (just not today).</p>
 
-      <p>My site can can be viewed:</p>
-      <ul>
-        <li>
-          <a class="postLink" href="https://project2-restaurant-mae.herokuapp.com" target="_blank">Website</a> <i>(or
-            by clicking on the website image above)</i>
-        </li>
-        <li>
-          <a class="postLink" href="https://github.com/EllerMel/project2-js-restaurant-website" target="_blank">Github Code</a>
-        </li>
-      </ul>
+              <p>My Project Two site can can be viewed:</p>
+              <ul>
+                <li>
+                  <a class="postLink" href="https://project2-restaurant-mae.herokuapp.com" target="_blank">Website</a>
+                  <i>(or
+                    by clicking on the website image above)</i>
+                </li>
+                <li>
+                  <a class="postLink" href="https://github.com/EllerMel/project2-js-restaurant-website"
+                    target="_blank">Github Code</a>
+                </li>
+              </ul>
 
-      <p>After the second project, we were then tasked to create a website that could read your mind! I am most looking forward to redoing that exercise with VueJS as I think that would be a good first one to try refactoring. Also coming up is Exercise 7, a To-Do List in VueJS. Both of those will be featured below once they are completed.</p>
-      
-      <div class="row">
-        <div class="col center"></div>
-        <div class="col center"></div>
+              <p>After the second project, we were then tasked to create a website that could read your mind! I am most looking forward to redoing that exercise with VueJS as I think that would be a good first one to try refactoring. Also coming up is Exercise 7, a To-Do List in VueJS. Both of those will be featured below once they are completed.</p>
+
+              <div class="row">
+                <div class="col center"></div>
+                <div class="col center"></div>
+              </div>
+
+              <p>While I found the overall delivery and exercises of the <a class="blogLink"
+                  href="https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/">Vue Mastery</a> tutorials to be fine, I felt that it was not setting me up with how to start a project from scratch. I was very happy to discover this awesome tutorial the other evening: <a class="blogLink"
+                  href=https://laracasts.com/series/learn-vue-2-step-by-step target="_blank">Laracast.</a> I look forward to spending the upcoming weekend going through all of the videos and acquiring a better foundation of the process.</p>
+              <br>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseFour">
+              Week Four
+            </a>
+          </div>
+          <div id="collapseFour" class="collapse" data-parent="#accordion" id="weekFour">
+            <div class="card-body">
+              <h5>March 22, 2019</h5>
+              <div class="blogimg" style="height:200px;"> Website Image</div>
+              <p></p>
+              <br>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <p>While I found the overall delivery and exercises of the <a class="postLink" href="https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/">Vue Mastery</a> tutorials to be fine, I felt that it was not setting me up with how to start a project from scratch. I was very happy to discover this awesome tutorial the other evening: <a  class="postLink" href=https://laracasts.com/series/learn-vue-2-step-by-step target="_blank">Laracast.</a> I look forward to spending the upcoming weekend going through all of the videos and acquiring a better foundation of the process.</p>
-      <br>
-      <a href="#" class="blogLink">Back to Top</a>
-    </div>
-    <div class="card">
-      <h2 id="weekFour">Week Four</h2>
-      <h5>March 22, 2019</h5>
-      <div class="blogimg" style="height:200px;"> Website Image</div>
-      <p></p>
-      <br>
-      <a href="#" class="blogLink">Back to Top</a>
-    </div>
+
   </div>
+
   <div class="rightcolumn">
     <div class="card">
       <img src ="/img/Melissa.jpg" alt="Melissa Eller" class="meimg">
