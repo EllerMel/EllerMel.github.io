@@ -125,6 +125,10 @@ h3{
   color: rgb(173, 149, 211);
 }
 
+.time{
+  text-align: right;
+}
+
  .text {
   text-align: center;
   margin-top: 25px;
