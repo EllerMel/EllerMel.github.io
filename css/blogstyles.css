@@ -24,6 +24,24 @@ body {
   background: lightgrey;
 }
 
+.name {
+  color: rgb(173, 149, 211);
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
+.dropdown-toggle{
+  margin-bottom: 2px;
+}
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+  margin-bottom: 0;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -36,6 +54,11 @@ body {
   float: left;
   width: 25%;
   padding-left: 20px;
+}
+
+.othercolumn {   
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Project image */
@@ -114,7 +137,6 @@ body {
 
  h2{
     color: rgb(173, 149, 211);
-    margin-left: 5%;
  }
 
 h3{
