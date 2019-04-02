@@ -188,3 +188,7 @@ a:hover + div {
 .center{
   text-align: center;
 }
+
+.dateTime {
+    padding-right: 50px;
+}
