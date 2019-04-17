@@ -31,17 +31,11 @@
       <li class="nav-item">
         <a class="nav-link" href="/blog.html">Blog</a>
       </li>
-
-      <!-- Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-          Links
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="https://github.com/EllerMel">GitHub</a>
-          <a class="dropdown-item" href="https://stackoverflow.com/users/7400219/mel">StackOverflow</a>
-          <a class="dropdown-item" href="https://www.linkedin.com/in/melissaeller248/">LinkedIn</a>
-        </div>
+      <li class="nav-item">
+          <a class="nav-link" href="https://github.com/EllerMel" Target="_blank">GitHub</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link"href="https://www.linkedin.com/in/melissaeller248/" Target="_blank">LinkedIn</a>
       </li>
     </ul>
   </nav>
@@ -323,10 +317,10 @@
               Week Seven
             </a>
           </div>
-          <div id="collapseSeven" class="collapse show" data-parent="#accordion">
+          <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 12, 2019</h5>
-              <img src="/img/LaravelExercises.png" alt="Laravel" class="blogimg"> <br>
+              <img src="/img/LaravelExercises.png" alt="Laravel Exercises" class="blogimg"> <br>
               <p>The happiness of week six was followed with the awfulness of having to refactor all of our previous exercises that were mainly done in JavaScript into Laravel and Vue components. First starting out we hit a lot of issues as a group with getting the project set up and having the correct npm install / npm run watch going to compile the projects correctly when any changes were made.</p>
               <p>The schedule was:</p>
               <ul>
@@ -356,20 +350,51 @@
         </div>
         <div class="card">
           <div class="card-header">
-            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseSeven" id="weekEight">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseEight" id="weekEight">
               Week Eight
             </a>
           </div>
-          <div id="collapseEight" class="collapse" data-parent="#accordion">
+          <div id="collapseEight" class="collapse show" data-parent="#accordion">
             <div class="card-body">
               <h5>April 19, 2019</h5>
+              <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="blogimg"> <br>
+              <p>The schedule was:</p>
+              <ul>
+                <li>Monday: To Do List</li>
+                <li>Tuesday: Mind Reader</li>
+                <li>Wednesday: Weather App</li>
+                <li>Thursday: Twitter Clone</li>
+                <li>Friday: Laravel Portfolio</li>
+              </ul>
+              <p>Monday and Tuesday involved taking my To Do List, which I started on Friday in Laravel, and completely restarting it in a Vue component. It was filled with a lot of learning and little wins with discovering how everything works together.</p>
+              <p>Tuesday afternoon was the Weather App (as I did the Mind Reader last week), and it went remarkably well with everything I learned while going through the To Do List. One thing that I discovered with the Weather App was that with Computed. It will run once, but even if another method calls it again later on down the line, it will not update. It took a few console logs to pin point that it was not re-entering computed functions, but it was easily fixed by just putting them into the Method.</p>
+              <p>It has not been pushed to Heroku yet, but it can be found on my GitHub below in the meantime:</p>
+              <ul>
+                  <li>
+                    <a class="postLink" href="https://github.com/EllerMel/LaravelExercises/tree/dev" target="_blank">Laravel Exercises</a>
+                  </li>
+              </ul>
+              <br>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseNine" id="weekNine">
+              Week Nine
+            </a>
+          </div>
+          <div id="collapseNine" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <h5>April 26, 2019</h5>
               <div class="blogimg" style="height:200px;"> Website Image</div>
               <p></p>
               <br>
               <a href="#" class="blogLink">Back to Top</a>
             </div>
           </div>
-        </div>           
+        </div>         
       </div>
 
 
@@ -390,6 +415,7 @@
         <a class="postLink" href="#weekFive">Week 5</a>
         <a class="postLink" href="#weekSix">Week 6</a>
         <a class="postLink" href="#weekSeven">Week 7</a>
+        <a class="postLink" href="#weekEight">Week 8</a>
       <!-- <div class="blogimg">Image</div> -->
     </div>
     <div class="card">
