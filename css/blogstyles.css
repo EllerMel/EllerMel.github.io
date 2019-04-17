@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+.btn-height {
+  min-height: 60px;
+}
+
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
   display: block;
 }
