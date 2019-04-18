@@ -322,7 +322,8 @@
           <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 12, 2019</h5>
-              <img src="/img/LaravelExercises.png" alt="Laravel Exercises" class="blogimg"> <br>
+              <img src="/img/LaravelExercises.png" alt="Laravel Exercises" class="blogimg"
+              onclick="window.open('https://laravel-portfolio-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>The happiness of week six was followed with the awfulness of having to refactor all of our previous exercises that were mainly done in JavaScript into Laravel and Vue components. First starting out we hit a lot of issues as a group with getting the project set up and having the correct npm install / npm run watch going to compile the projects correctly when any changes were made.</p>
               <p>The schedule was:</p>
@@ -360,7 +361,8 @@
           <div id="collapseEight" class="collapse show" data-parent="#accordion">
             <div class="card-body">
               <h5>April 19, 2019</h5>
-              <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="blogimg"> <br>
+              <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="blogimg" 
+              onclick="window.open('https://laravel-portfolio-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>The schedule was:</p>
               <ul>
@@ -372,12 +374,20 @@
               </ul>
               <p>Monday and Tuesday involved taking my To Do List, which I started on Friday in Laravel, and completely restarting it in a Vue component. It was filled with a lot of learning and little wins with discovering how everything works together.</p>
               <p>Tuesday afternoon was the Weather App (as I did the Mind Reader last week), and it went remarkably well with everything I learned while going through the To Do List. One thing that I discovered with the Weather App was that with Computed. It will run once, but even if another method calls it again later on down the line, it will not update. It took a few console logs to pin point that it was not re-entering computed functions, but it was easily fixed by just putting them into the Method.</p>
-              <p>It has not been pushed to Heroku yet, but it can be found on my GitHub below in the meantime:</p>
+              <p>Wednesday and Thursday was getting the portfolio polished and getting it on Heroku. We came across a few issues with getting it set up, but once we figured that we needed to set APP_KEY and wrap our css path in a secure_asset to have it show up correctly in the browser, we were good. Now we just need to figure out how to link to an online database to have the functionality of the ToDo List.</p>
+              <p>My site can can be viewed:</p>
               <ul>
-                  <li>
-                    <a class="postLink" href="https://github.com/EllerMel/LaravelExercises/tree/dev" target="_blank">Laravel Exercises</a>
-                  </li>
+                <li>
+                  <a class="postLink" href="https://laravel-portfolio-mae.herokuapp.com/"
+                    target="_blank">Website</a> 
+                    <i>(or by clicking on the website image above)</i>
+                </li>
+                <li>
+                  <a class="postLink" href="https://github.com/EllerMel/LaravelExercises"
+                    target="_blank">Github Code</a>
+                </li>
               </ul>
+              <p>Please note that the database for ToDo has not yet been hosted.</p>
               <br>
               <a href="#" class="blogLink">Back to Top</a>
             </div>
