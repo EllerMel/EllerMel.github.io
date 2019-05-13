@@ -358,7 +358,7 @@
               Week Eight
             </a>
           </div>
-          <div id="collapseEight" class="collapse show" data-parent="#accordion">
+          <div id="collapseEight" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 19, 2019</h5>
               <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="blogimg" 
@@ -404,19 +404,70 @@
         <div class="card">
           <div class="card-header">
             <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseNine" id="weekNine">
-              Week Nine
+              Final Project
             </a>
           </div>
-          <div id="collapseNine" class="collapse" data-parent="#accordion">
+          <div id="collapseNine" class="collapse show" data-parent="#accordion">
             <div class="card-body">
-              <h5>April 26, 2019</h5>
+              <h5>April 26, 2019 - May 17, 2019</h5>
+              <img src="/img/HLA_General_Login.png" alt="Horse Lesson Assistant" class="blogimg"
+              onclick="window.open('http://horse-lesson-assistant-mae.herokuapp.com/', '_blank')"> <br>
+              <br>
+              <p>For my final project I created: Horse Lesson Assistant. I have been riding horses for over twenty years, and I have owned my own horse for for about a year of that time. I have had the opportunity to ride so many wonderful lesson horses that have helped me to become a better rider over the years. At the last farm I rode I, my horse assignment was usually given to me by my instructor via text message right before the lesson, and often times it was a horse that I had never seen before that I would have to go catch from the pasture. One such example was catch the grey horse from the gelding's field. I inquired to my instructor if there was any other greys, so that I did not mistakenly catch the wrong one. She let me know that there were three of them, but the one that I was going to ride was the fattest one. Keep in mind that the gelding's field is quite large, a bit hilly, and naturally the horses hang out on the far sides and back in small groups, so it's really not that easy to compare horses side by side. So I would find the nearest grey, take a picture and send it to my instructor to determine if I located the correct one. After a while I began creating folders on my phone with each horse's name, and pictures of their body, faces, and legs to show any identifying markers to assist in catching the correct one. When we were told we needed to come up with an idea for a solo final project, creating something to help with lesson horse assigment instantly came to mind.</p>
+              <br>
+              <p>I wanted a fairly straight forward app, that would be quick to load when standing in the middle of a pasture trying to determine which if the three grey horses I actually need to catch. There are two main user types: Instructors and Students. The instructors can view and modify the farm information (containing the helpful contact information, stall and pasture layout pictures). They can view the students contact information. They have the ability to add, edit and view the current horses, including adding up to four pictures, tack and pasture/stall information. They also have the ability to mark the horse as temporarily un usable, to prevent it from being booked in any future lessons, and to have a message appear on any existing lessons that the horse is unavailable. Instructors have the ability to add lessons and the student, instructor, horses, and location drop downs are all pulled dynamically from the database. Students also have the ability to request a lesson, and that lesson will be set to pending until approved by the instructor. I am really happy with the first release of Horse Lesson Assistant.</p>
+              <br>
+              <p>My project was done mainly with Laravel with some Vue.JS components and the database was set up on Sequel Pro. It was then hosted on Heroku with ClearDB addon for the database. It requires a login to access, which I will happily grant if you send a request, but below is some screenshots in the meantime.</p>
+              <br>
+              <div class="row">
+                <div class="col center"><img src="/img/HLA1_Indiv_Welcome.png" title="Student Welcome Screen"
+                    class="projectimg"></div>
+
+                <div class="col center"><img src="/img/HLA2_Indiv_Lessons.png" title="Student Lesson Screen"
+                    class="projectimg"></div>
+
+                <div class="col center"><img src="/img/HLA3_Indiv_Lesson_Pending.png" title="Student Lesson Pending Screen"
+                    class="projectimg"></div>
+
+                <div class="col center"><img src="/img/HLA4_Indiv_Horse.png" title="Horses List View"
+                    class="projectimg"></div>
+
+                <div class="col center"><img src="/img/HLA5_Horse_Show.png" title="Horse Information View"
+                    class="projectimg"></div>
+              </div>
+              <br>
+              <p>My final project can can be viewed:</p>
+              <ul>
+                <li>
+                  <a class="postLink" href="http://horse-lesson-assistant-mae.herokuapp.com/"
+                    target="_blank">Horse Lesson Assistant Website</a> 
+                </li>
+                <li>
+                  <a class="postLink" href="https://github.com/EllerMel/ProjectFinal"
+                    target="_blank">Github Code</a>
+                </li>
+              </ul>
+              <br>
+              <a href="#" class="blogLink">Back to Top</a>
+            </div>
+          </div>
+        </div>  
+        <!-- <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link accordionLink" data-toggle="collapse" href="#collapseTen" id="weekTen">
+              Reflections
+            </a>
+          </div>
+          <div id="collapseTen" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <h5>Completed</h5>
               <div class="blogimg" style="height:200px;"> Website Image</div>
               <p></p>
               <br>
               <a href="#" class="blogLink">Back to Top</a>
             </div>
           </div>
-        </div>         
+        </div>               -->
       </div>
 
 
@@ -438,6 +489,7 @@
         <a class="postLink" href="#weekSix">Week 6</a>
         <a class="postLink" href="#weekSeven">Week 7</a>
         <a class="postLink" href="#weekEight">Week 8</a>
+        <a class="postLink" href="#weekNine">Final Project</a>
       <!-- <div class="blogimg">Image</div> -->
     </div>
     <div class="card">
