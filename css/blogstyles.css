@@ -27,6 +27,12 @@ body {
 .name {
   color: rgb(154, 129, 194);
   text-align: center;
+  margin-top: 100px;
+}
+
+.title {
+  color: black;
+  text-align: center;
 }
 
 .btn-height {
@@ -117,6 +123,9 @@ body {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
+  }
+  .name {
+    margin-top: 0px;
   }
 }
 
