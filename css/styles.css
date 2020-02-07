@@ -2,14 +2,12 @@
   box-sizing: border-box;
 }
 
-/* Add a gray background color with some padding */
 body {
-  font-family: Arial;
+  font-family: 'Nunito', sans-serif;
   padding: 20px;
   background: #f1f1f1;
 }
 
-/* Header/Blog Title */
 .header {
   padding: 30px;
   font-size: 40px;
@@ -21,13 +19,18 @@ body {
   padding: 10px;
   font-size: 40px;
   text-align: center;
-  background: lightgrey;
+  background: white;
 }
 
 .name {
-  color: rgb(154, 129, 194);
+  color: #636b6f;
+  font-size: 80px;
+  font-weight: 200;
   text-align: center;
-  margin-top: 100px;
+}
+
+.blog-title {
+  font-size: 60px;
 }
 
 .title {
@@ -35,8 +38,8 @@ body {
   text-align: center;
 }
 
-.btn-height {
-  min-height: 60px;
+.btn-info {
+  min-width: 175px;
 }
 
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
@@ -53,7 +56,6 @@ body {
 }
 
 /* Create two unequal columns that floats next to each other */
-/* Left column */
 .leftcolumn {   
   float: left;
   width: 75%;
@@ -61,7 +63,6 @@ body {
   padding-left: 20px;
 }
 
-/* Right column */
 .rightcolumn {
   float: left;
   width: 25%;
@@ -69,33 +70,32 @@ body {
   padding-right: 20px;
 }
 
-/* Project image */
-.projectimg {
+/* Images */
+.image-max {
   background-color: #aaa;
   width: 100%;
 }
 
-/* Project image */
-.projectimg2 {
+.image-large {
   background-color: #aaa;
   width: 75%;
 }
 
-/* Blog image */
-.blogimg {
+.image-medium {
+  background-color: #aaa;
+  width: 50%;
+}
+
+.image-small {
   background-color: #aaa;
   width: 25%;
 }
 
-/* Small personal image */
 .meimg {
-  background-color: #aaa;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Add a card effect for articles */
 .card {
    background-color: white;
    padding: 20px;
@@ -109,7 +109,6 @@ body {
   clear: both;
 }
 
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
@@ -124,19 +123,15 @@ body {
     width: 100%;
     padding: 0;
   }
-  .name {
-    margin-top: 0px;
+  .btn-info {
+    min-height: 60px;
+    min-width: 152px;
   }
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-  }
-
-  .accordionLink{
-    color: rgb(154, 129, 194);
-    font-size: 175%;
+.accordionLink{
+  color: rgb(154, 129, 194);
+  font-size: 175%;
 }
 
 .postLink{
@@ -168,7 +163,7 @@ h3{
   text-align: right;
 }
 
- .text {
+.text {
   text-align: center;
   margin-top: 25px;
   color: rgb(154, 129, 194);
