@@ -70,7 +70,19 @@
     <div class="col-m time"><clock></clock></div>
   </div>
 </div> 
-  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
 
 <div class="row">
   <div class="leftcolumn">
@@ -84,7 +96,7 @@
           <div id="collapseOne" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 1, 2019</h5>
-              <img src="/img/Project1.png" alt="Week 1" class="image-small"
+              <img src="/img/Project1.png" alt="Week 1" class="image-small on-click"
                 onclick="window.open('https://project1-campaign-website-mae.herokuapp.com', '_blank')"> <br>
               <br>
               <p>
@@ -142,23 +154,23 @@
 
               <div class="row">
                 <div class="col center"><img src="/img/Exercise1ClockJS.png" title="Exercise 1 - Digital Clock"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise1-js-digital-clock', '_blank')"></div>
 
                 <div class="col center"><img src="/img/Exercise2CountdownJS.png" title="Exercise 2 - Countdown"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise2-js-countdown', '_blank')"></div>
 
                 <div class="col center"><img src="/img/Exercise3TicTacToe.png" title="Exercise 3 - Tic Tac Toe"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise3-js-tictactoe', '_blank')"></div>
 
                 <div class="col center"><img src="/img/Exercise4Calculator.png" title="Exercise 4 - Calculator"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise4-js-calculator', '_blank')"></div>
 
                 <div class="col center"><img src="/img/Exercise5Weather.png" title="Exercise 5 - Weather App"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise5-js-weather-app', '_blank')"></div>
               </div>
               <br>
@@ -191,7 +203,7 @@
           <div id="collapseThree" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 15, 2019</h5>
-              <img src="/img/Project2Restaurant.png" alt="Project 2 - Restaurant" class="image-small"
+              <img src="/img/Project2Restaurant.png" alt="Project 2 - Restaurant" class="image-small on-click"
                 onclick="window.open('https://project2-restaurant-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>This week was the introduction to Project Two, creating a Restaurant menu by pulling from a API that produced a random set of food descriptions. I enjoyed using the Bootstrap Accordion feature to show and hid my menu sections. I was very happy with how it turned out, though I understand it will need to be updated to involve JavaScript/VueJS injections going forward. I was so happy with it, that my blog now features an Accordion! Also I just found this <a class="blogLink" href="https://scotch.io/courses/getting-started-with-vue/vue-events-building-an-accordion" target="_blank">VueJS accordion tutorial</a> to help me to better build this site going forward (just not today).</p>
@@ -213,11 +225,11 @@
 
               <div class="row">
                 <div class="col center"><img src="/img/Exercise6MindReader.png" alt="Exercise 6 - Mind Reader" title="Exercise 6 - Mind Reader"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise6-js-mind-reader/tree/VueJS', '_blank')"></div>
 
                 <div class="col center"><img src="/img/Exercise7VueToDo.png" alt="Exercise 7 - To Do List" title="Exercise 7 - To Do List"
-                    class="image-max"
+                    class="image-max on-click"
                     onclick="window.open('https://github.com/EllerMel/exercise7-vue-to-do-list/tree/dev', '_blank')"></div>
               </div>
               <br>
@@ -257,22 +269,22 @@
           <div id="collapseFive" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 29, 2019</h5>
-              <img src="/img/RoadRunner1Main.png" alt="Road Runner Exotic Car Rental" class="image-small"> <br>
+              <img src="/img/RoadRunner1Main.png" alt="Road Runner Exotic Car Rental" class="myImg image-small"> <br>
               <br>
               <p>All week consisted of working on our group projects. It was certainly a process of creating the MVP, personas and stories for an entire site. We had our very first go at installing vue cli, vue bootstrap, jquery, vue router and vuex all on a project. The entire process was a big learning curve leaving many of us feeling like we were suddenly pushed off a cliff we thought we were successfully climbing. My two initial stories involved building a subscription modal and a login modal. I had to find a fix to be able to prompt a modal to open via the navbar without the href triggering a page reload and thus resetting the showModal status I set. I was also able to figure out some verification checking on the modal upon submit, but I still felt like I wasn't really challenging myself. Then I created a review form on the car details page and set that up so that on submit it actually displayed on the page, verses my two other forms that (other then the verification checking on the one) didn't actually do anything. I enjoyed that. At the end of the day on Thursday I decided to pick up two should have stories and created an Admin page with a feature to add additional cars. I was able to use Colby's car card and duplicate it so the 'Rent' button could be an 'Edit' button instead, and I created a modal to edit the car information. I wish we would have had a few more days as I think we could have really created some great things. Like I wonder if the car card could have been set up to have the 'Rent' or 'Edit' button appear so that it could be used in both places. Lastly on Friday morning, Justin was nice to offer to come in early so anyone who wanted some additional help could get it. Friday morning I was able to work through setting up the basics for Local Storage on the project with him. Due to issues with the group still trying to sort out getting the specific car details to appear on a separate page, I decided to use Local Storage instead for the users and it was extremely satisfying when I got it to work. Kseniya worked really hard to style the page to give it a good color scheme and to make sure that all the elements resized appropriately for mobile.</p>
               <p>I really loved what we were able to accomplish in the short time with a steep learning curve. I think our team worked really great together and we were good at communicating and helping each other to get the site done as a group. I became more comfortable with many of the aspects of building a site, including getting a lot more experience with creating branches and pushing changes on github along with pulling others changes down to my respective dev and branches. I felt that I was a beneficial asset to the team throughout the whole process which was a fantastic feeling. </p>
               <p>I look forward forking the repo and continuing to work on the site on my own. I would like to have the cars on Local Storage that I set up, but commented out due to time. I want to pass the current car information to the edit modal. I want to have the new car form check to see if any other vehicles match that one before adding. I would like to put the check box for the featured cars on the car edit form and have it actually change the featured status and update those cars accordingly.</p>
               
-              <p>We ran into a few hiccups trying to get the project up to Heroku, so I will just post some super awesome screenshots below and a link to the repo in the meantime.</p>
+              <p>We ran into a few hiccups trying to get the project up to Heroku, so I will just post some super awesome screenshots below and a link to the repo in the meantime. Click on any of the below images to see a larger view)</p>
 
               <div class="row">
-                <div class="col center"><img src="/img/RoadRunner1Main.png" title="Road Runner Main Page" class="image-max"></div>
+                <div class="col center"><img src="/img/RoadRunner1Main.png" alt="Road Runner Main Page" title="Road Runner Main Page" class="myImg image-max"></div>
               
-                <div class="col center"><img src="/img/RoadRunner2Review.png" title="Road Runner Review form" class="image-max"></div>
+                <div class="col center"><img src="/img/RoadRunner2Review.png" alt="Road Runner Review form" title="Road Runner Review form" class="myImg image-max"></div>
               
-                <div class="col center"><img src="/img/RoadRunner3Add.png" title="Road Runner Add Car" class="image-max"></div>
+                <div class="col center"><img src="/img/RoadRunner3Add.png" alt="Road Runner Add Car" title="Road Runner Add Car" class="myImg image-max"></div>
               
-                <div class="col center"><img src="/img/RoadRunner4Edit.png" title="Road Runner Edit Car" class="image-max"></div>
+                <div class="col center"><img src="/img/RoadRunner4Edit.png" alt="Road Runner Edit Car" title="Road Runner Edit Car" class="myImg image-max"></div>
               </div>
               <br>
               
@@ -321,7 +333,7 @@
           <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 12, 2019</h5>
-              <img src="/img/LaravelExercises.png" alt="Laravel Exercises" class="image-small"
+              <img src="/img/LaravelExercises.png" alt="Laravel Exercises" class="image-small on-click"
               onclick="window.open('https://laravel-portfolio-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>The happiness of week six was followed with the awfulness of having to refactor all of our previous exercises that were mainly done in JavaScript into Laravel and Vue components. First starting out we hit a lot of issues as a group with getting the project set up and having the correct npm install / npm run watch going to compile the projects correctly when any changes were made.</p>
@@ -360,7 +372,7 @@
           <div id="collapseEight" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 19, 2019</h5>
-              <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="image-small" 
+              <img src="/img/LaravelPortfolio.png" alt="Laravel Portfolio" class="image-small on-click" 
               onclick="window.open('https://laravel-portfolio-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>The schedule was:</p>
@@ -391,9 +403,9 @@
               <p>Exciting News! I spun up my very first Drupal site! I first experienced Drupal when I was working with the Rocky Mountain Horse Association. During my time there, the organization decided to create a new website. They hired a company to spin up the site, handle the backend, template and the integration with our existing database. I was in charge of taking the content on the current website and entering it into the new site, along with creating new content. I really enjoyed it, and felt that it was easy to navigate and update. Fast forward to Friday, I played with it a bit during the day at class and with getting it on to my computer. Then I went home that night and started fresh. I decided to spin up something similar to my existing my https://ellermel.github.io website in Drupal. I used <a class="postLink" href="https://pantheon.io/" target="_blank">Pantheon.</a> Then today, I downloaded it onto my local machine and got it up and going with MAMP and SequelPro. I'm just getting started, but I am super pleased with what I have so far.</p>
               <br>
               <div class="row">
-                <div class="col center"><img src="/img/Drupal1.png" title="Main Page" class="image-max"></div>
-                <div class="col center"><img src="/img/Drupal2.png" title="Blog Page" class="image-max"></div>
-                <div class="col center"><img src="/img/Drupal3.png" title="Projects Page" class="image-max"></div>
+                <div class="col center"><img src="/img/Drupal1.png" alt="Main Page" title="Main Page" class="myImg image-max"></div>
+                <div class="col center"><img src="/img/Drupal2.png" alt="Blog Page" title="Blog Page" class="myImg image-max"></div>
+                <div class="col center"><img src="/img/Drupal3.png" alt="Projects Page" title="Projects Page" class="myImg image-max"></div>
               </div>
               <br>
               <a href="#" class="blogLink">Back to Top</a>
@@ -409,30 +421,35 @@
           <div id="collapseNine" class="collapse show" data-parent="#accordion">
             <div class="card-body">
               <h5>April 26, 2019 - May 17, 2019</h5>
-              <img src="/img/HLA_General_Login.png" alt="Horse Lesson Assistant" class="image-small"
+              <img src="/img/HLA_General_Login.png" alt="Horse Lesson Assistant" class="image-small on-click"
               onclick="window.open('http://horse-lesson-assistant-mae.herokuapp.com/', '_blank')"> <br>
               <br>
               <p>For my final project I created: Horse Lesson Assistant. I have been riding horses for over twenty years, and I have owned my own horse for for about a year of that time. I have had the opportunity to ride so many wonderful lesson horses that have helped me to become a better rider over the years. At the last farm I rode I, my horse assignment was usually given to me by my instructor via text message right before the lesson, and often times it was a horse that I had never seen before that I would have to go catch from the pasture. One such example was catch the grey horse from the gelding's field. I inquired to my instructor if there was any other greys, so that I did not mistakenly catch the wrong one. She let me know that there were three of them, but the one that I was going to ride was the fattest one. Keep in mind that the gelding's field is quite large, a bit hilly, and naturally the horses hang out on the far sides and back in small groups, so it's really not that easy to compare horses side by side. So I would find the nearest grey, take a picture and send it to my instructor to determine if I located the correct one. After a while I began creating folders on my phone with each horse's name, and pictures of their body, faces, and legs to show any identifying markers to assist in catching the correct one. When we were told we needed to come up with an idea for a solo final project, creating something to help with lesson horse assigment instantly came to mind.</p>
               <br>
               <p>I wanted a fairly straight forward app, that would be quick to load when standing in the middle of a pasture trying to determine which if the three grey horses I actually need to catch. There are two main user types: Instructors and Students. The instructors can view and modify the farm information (containing the helpful contact information, stall and pasture layout pictures). They can view the students contact information. They have the ability to add, edit and view the current horses, including adding up to four pictures, tack and pasture/stall information. They also have the ability to mark the horse as temporarily un usable, to prevent it from being booked in any future lessons, and to have a message appear on any existing lessons that the horse is unavailable. Instructors have the ability to add lessons and the student, instructor, horses, and location drop downs are all pulled dynamically from the database. Students also have the ability to request a lesson, and that lesson will be set to pending until approved by the instructor. I am really happy with the first release of Horse Lesson Assistant.</p>
               <br>
-              <p>My project was done mainly with Laravel with some Vue.JS components and the database was set up on Sequel Pro. It was then hosted on Heroku with ClearDB addon for the database. It requires a login to access, which I will happily grant if you send a request, but below is some screenshots in the meantime.</p>
+              <p>My project was done mainly with Laravel with some Vue.JS components and the database was set up on Sequel Pro. It was then hosted on Heroku with ClearDB addon for the database. It requires a login to access, which I will happily grant if you send a request, but below is some screenshots in the meantime. (Click on any of the below images to see a larger view)</p>
               <br>
               <div class="row">
-                <div class="col center"><img src="/img/HLA1_Indiv_Welcome.png" title="Student Welcome Screen"
-                    class="image-max"></div>
+                <div class="col center">
+                  <img src="/img/HLA1_Indiv_Welcome.png" alt="Student Welcome Screen" title="Student Welcome Screen" class="myImg image-max">
+                </div>
 
-                <div class="col center"><img src="/img/HLA2_Indiv_Lessons.png" title="Student Lesson Screen"
-                    class="image-max"></div>
+                <div class="col center">
+                  <img src="/img/HLA2_Indiv_Lessons.png" alt="Student Lesson Screen" title="Student Lesson Screen" class="myImg image-max">
+                </div>
 
-                <div class="col center"><img src="/img/HLA3_Indiv_Lesson_Pending.png" title="Student Lesson Pending Screen"
-                    class="image-max"></div>
+                <div class="col center">
+                  <img src="/img/HLA3_Indiv_Lesson_Pending.png" alt="Student Lesson Pending Screen" title="Student Lesson Pending Screen" class="myImg image-max">
+                </div>
 
-                <div class="col center"><img src="/img/HLA4_Indiv_Horse.png" title="Horses List View"
-                    class="image-max"></div>
+                <div class="col center">
+                  <img src="/img/HLA4_Indiv_Horse.png" alt="Horses List View" title="Horses List View" class="myImg image-max">
+                </div>
 
-                <div class="col center"><img src="/img/HLA5_Horse_Show.png" title="Horse Information View"
-                    class="image-max"></div>
+                <div class="col center">
+                  <img src="/img/HLA5_Horse_Show.png" alt="Horse Information View" title="Horse Information View" class="myImg image-max">
+                </div>
               </div>
               <br>
               <p>My final project can can be viewed:</p>
