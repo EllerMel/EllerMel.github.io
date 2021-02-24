@@ -39,6 +39,8 @@ body {
 }
 
 .btn-info {
+  background-color: #008298;
+  border-color: #008298;
   min-width: 175px;
 }
 
@@ -53,6 +55,10 @@ body {
 }
 .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
   margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -135,25 +141,28 @@ body {
 }
 
 .accordionLink{
-  color: rgb(154, 129, 194);
+  color: #7C55BA;
   font-size: 175%;
+  text-decoration: underline;
 }
 
 .postLink{
-    color: rgb(154, 129, 194);
+    color: #7C55BA;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .blogLink{
-    color: rgb(102, 101, 101);
+    color: #666665;
+    text-decoration: underline;
 }
 
 .fa-circle{
-    color: rgb(154, 129, 194);
+    color: #7C55BA;
  }
 
  h2{
-    color: rgb(154, 129, 194);
+    color: #7C55BA;
  }
 
 h3{
@@ -161,7 +170,7 @@ h3{
 }
 
  h4{
-  color: rgb(154, 129, 194);
+  color: #7C55BA;
 }
 
 .time{
@@ -171,7 +180,7 @@ h3{
 .text {
   text-align: center;
   margin-top: 25px;
-  color: rgb(154, 129, 194);
+  color: #7C55BA;
   font-size: 2.0em;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
