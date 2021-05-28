@@ -210,6 +210,10 @@ a:hover + div {
   text-align: center;
 }
 
+.bump{
+  padding-bottom: 50px;
+}
+
 .dateTime {
     padding-right: 50px;
 }
