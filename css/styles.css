@@ -26,16 +26,14 @@ body {
   color: #636b6f;
   font-size: 80px;
   font-weight: 200;
-  text-align: center;
 }
 
 .blog-title {
   font-size: 60px;
 }
 
-.title {
+.job-title {
   color: black;
-  text-align: center;
 }
 
 .btn-info {
@@ -102,10 +100,6 @@ body {
   margin-right: auto;
 }
 
-.on-click:hover {
-  cursor: pointer;
-}
-
 
 .card {
    background-color: white;
@@ -157,9 +151,14 @@ body {
     text-decoration: underline;
 }
 
-.fa-circle{
-    color: #7C55BA;
- }
+.fa-stack {
+    color:#7C55BA;
+}
+
+.fa-stack:hover, 
+.fa-stack:focus {
+    color: grey;
+}
 
  h2{
     color: #7C55BA;
