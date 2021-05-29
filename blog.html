@@ -100,9 +100,10 @@
           <div id="collapseOne" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 1, 2019</h5>
-              <img src="/img/Project1.png" alt="Screenshot of Campaign website" class="image-small"><br>
-              <a href="https://project1-campaign-website-mae.herokuapp.com" class="postLink">Project 1 - Campaign Website</a><br>
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/Project1.png" class="image-max" alt="Screenshot of Campaign website"><br>
+                <a href="https://project1-campaign-website-mae.herokuapp.com" class="postLink">Project 1 - Campaign Website</a>
+              </div>
               <p>
                 The first week began with a lot of tutorials (such as <a class="blogLink"
                   href="https://learngitbranching.js.org">Learning Git</a>) and struggling with the <a
@@ -141,7 +142,6 @@
           <div id="collapseTwo" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 8, 2019</h5>
-              <!-- <div class="image-small" style="height:200px;"> Website Image</div> -->
               <p>The second week was the introduction to JavaScript. I enjoyed the <a class="blogLink"
                   href="https://www.w3schools.com/js/js_exercises.asp">W3Schools JavaScript
                   Exercises</a> and also
@@ -188,6 +188,12 @@
               <div class="row">
                 <div class="col center"><img src="img/GameChanger.png" alt="Game Changer" class="image-small"></div>
               </div>
+              <div class="row">
+                <div class="col center"><code>.row{ border: 1px solid red; }</code></div>
+              </div>
+              <div class="row">
+                <div class="col center"><code>.col{ border: 1px solid blue; }</code></div>
+              </div>
               <br>
 
               <p>So far, this blog page has been updated with two JavaScript functions. The first is the ability to Show/Hide my Nav bar at the top of the page with a button click. The second is to personalize the 'Welcome' text under the main image with your name with an additional button click.</p>
@@ -208,9 +214,10 @@
           <div id="collapseThree" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 15, 2019</h5>
-              <img src="/img/Project2Restaurant.png" class="image-small" alt="Screenshot of Resturant Menu"><br>
-              <a href="https://project2-restaurant-mae.herokuapp.com/" class="postLink">Project 2 - Resturant Menu</a><br>  
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/Project2Restaurant.png" class="image-max" alt="Screenshot of Resturant Menu"><br>
+                <a href="https://project2-restaurant-mae.herokuapp.com/" class="postLink">Project 2 - Resturant Menu</a><br>
+              </div>
               <p>This week was the introduction to Project Two, creating a Restaurant menu by pulling from a API that produced a random set of food descriptions. I enjoyed using the Bootstrap Accordion feature to show and hid my menu sections. I was very happy with how it turned out, though I understand it will need to be updated to involve JavaScript/VueJS injections going forward. I was so happy with it, that my blog now features an Accordion! Also I just found this <a class="blogLink" href="https://scotch.io/courses/getting-started-with-vue/vue-events-building-an-accordion">VueJS accordion tutorial</a> to help me to better build this site going forward (just not today).</p>
 
               <p>My Project Two site can can be viewed:</p>
@@ -255,7 +262,6 @@
           <div id="collapseFour" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 22, 2019</h5>
-              <!-- <div class="image-small" style="height:200px;"> Website Image</div> -->
               <p>This week found us continuing to dive into VueJS. <a class="postLink" href="https://github.com/EllerMel/exercise1-js-digital-clock/tree/vueJS">Exercise 1 - Digital Clock</a> was successfully refactored into VueJS. At first, due to the the interval aspect, we were not able to figure out how to make the clock it's own component. But upon further research and discussion, it was finally figured out. Both the date and the clock from that exercise is now located near the top of this blog page.</p>
               <p>I was extremely excited when the morning warm-ups were <a class="blogLink" href="https://www.hackerrank.com/domains/sql">MySQL</a> on Thursday. I was a Data Analyst for over three years, and I really love the process of writing queries to return data. I am looking forward to when we get to the Database aspect of the course.</p>
               <p>The last half of the week was the splitting of the class into two teams. My group is: The A-Team and it is comprised of myself, Colby, Shawn and Kseniya. Our project is designing a website for the mock company of: Road-Runner Exotic Car Rental. I think once we get it going, it will not be as daunting as it is seems right now. There is just a large gap between what we know how to do and what we would like to do. There are things that I know I could easily manage if I just had access to a database and could whip up some stored procedures. I think once we get it figured out for one instance in VueJS, it should be easy to implement on the rest of the site. I have been battling with a cold all week, and it has certainly been a bit more of a struggle, but I am hoping over this weekend I will be able to rest and reset.</p>
@@ -273,8 +279,9 @@
           <div id="collapseFive" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>March 29, 2019</h5>
-              <img src="/img/RoadRunner1Main.png" alt="Screenshot of Road Runner Exotic Car Rental webpage" class="myImg image-small"> <br>
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/RoadRunner1Main.png" alt="Screenshot of Road Runner Exotic Car Rental webpage" class="myImg image-max">
+              </div>
               <p>All week consisted of working on our group projects. It was certainly a process of creating the MVP, personas and stories for an entire site. We had our very first go at installing vue cli, vue bootstrap, jquery, vue router and vuex all on a project. The entire process was a big learning curve leaving many of us feeling like we were suddenly pushed off a cliff we thought we were successfully climbing. My two initial stories involved building a subscription modal and a login modal. I had to find a fix to be able to prompt a modal to open via the navbar without the href triggering a page reload and thus resetting the showModal status I set. I was also able to figure out some verification checking on the modal upon submit, but I still felt like I wasn't really challenging myself. Then I created a review form on the car details page and set that up so that on submit it actually displayed on the page, verses my two other forms that (other then the verification checking on the one) didn't actually do anything. I enjoyed that. At the end of the day on Thursday I decided to pick up two should have stories and created an Admin page with a feature to add additional cars. I was able to use Colby's car card and duplicate it so the 'Rent' button could be an 'Edit' button instead, and I created a modal to edit the car information. I wish we would have had a few more days as I think we could have really created some great things. Like I wonder if the car card could have been set up to have the 'Rent' or 'Edit' button appear so that it could be used in both places. Lastly on Friday morning, Justin was nice to offer to come in early so anyone who wanted some additional help could get it. Friday morning I was able to work through setting up the basics for Local Storage on the project with him. Due to issues with the group still trying to sort out getting the specific car details to appear on a separate page, I decided to use Local Storage instead for the users and it was extremely satisfying when I got it to work. Kseniya worked really hard to style the page to give it a good color scheme and to make sure that all the elements resized appropriately for mobile.</p>
               <p>I really loved what we were able to accomplish in the short time with a steep learning curve. I think our team worked really great together and we were good at communicating and helping each other to get the site done as a group. I became more comfortable with many of the aspects of building a site, including getting a lot more experience with creating branches and pushing changes on github along with pulling others changes down to my respective dev and branches. I felt that I was a beneficial asset to the team throughout the whole process which was a fantastic feeling. </p>
               <p>I look forward forking the repo and continuing to work on the site on my own. I would like to have the cars on Local Storage that I set up, but commented out due to time. I want to pass the current car information to the edit modal. I want to have the new car form check to see if any other vehicles match that one before adding. I would like to put the check box for the featured cars on the car edit form and have it actually change the featured status and update those cars accordingly.</p>
@@ -320,7 +327,9 @@
           <div id="collapseSix" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 5, 2019</h5>
-              <img src="/img/Week6_CRUD.png" alt="Screenshot of CRUD webpage" class="image-small"> <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/Week6_CRUD.png" alt="Screenshot of CRUD webpage" class="image-max">
+              </div>
               <br>
               <p>This week we began learning Laravel with the help of <a class="blogLink" href="https://laracasts.com/series/laravel-from-scratch-2018/">laracasts</a>. I absolutely loved this week. I'm not sure if it was the content, the way the laracasts presented it, or the fact that we are finally getting to use some of my most favorite things: databases and queries. Whatever it was, I really enjoyed this week and I felt so energized that it was all making sense and I was able to implement the things I was learning every step of the way. Instead of just hopping right into the exercise, or doing the videos and the exercise concurrently, I took my time and went through the first twelve videos slowly, pausing and taking notes. Then on Friday afternoon, I decided to take on the project of creating a simple CRUD application (create, read, update, and delete). It was so much fun.</p>
               <br>
@@ -337,9 +346,10 @@
           <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 12, 2019</h5>
-              <img src="/img/LaravelExercises.png" class="image-small" alt="Screenshot of Laravel Exercises webpage"><br>
-              <a href="https://laravel-portfolio-mae.herokuapp.com/" class="postLink">Laravel Exercises</a><br>
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/LaravelExercises.png" class="image-max" alt="Screenshot of Laravel Exercises webpage"><br>
+                <a href="https://laravel-portfolio-mae.herokuapp.com/" class="postLink">Laravel Exercises</a>
+              </div>
               <p>The happiness of week six was followed with the awfulness of having to refactor all of our previous exercises that were mainly done in JavaScript into Laravel and Vue components. First starting out we hit a lot of issues as a group with getting the project set up and having the correct npm install / npm run watch going to compile the projects correctly when any changes were made.</p>
               <p>The schedule was:</p>
               <ul>
@@ -376,10 +386,10 @@
           <div id="collapseEight" class="collapse" data-parent="#accordion">
             <div class="card-body">
               <h5>April 19, 2019</h5>
-              <img src="/img/LaravelExercises.png" class="image-small" alt="Screenshot of Laravel Exercises webpage"><br>
-              <a href="https://laravel-portfolio-mae.herokuapp.com/" class="postLink">Laravel Exercises</a><br>
-              <br>
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/LaravelExercises.png" class="image-max" alt="Screenshot of Laravel Exercises webpage"><br>
+                <a href="https://laravel-portfolio-mae.herokuapp.com/" class="postLink">Laravel Exercises</a>
+              </div>
               <p>The schedule was:</p>
               <ul>
                 <li>Monday: To Do List</li>
@@ -423,9 +433,10 @@
           <div id="collapseNine" class="collapse show" data-parent="#accordion">
             <div class="card-body">
               <h5>April 26, 2019 - May 17, 2019</h5>
-              <img src="/img/HLA_General_Login.png" alt="Screenshot of Horse Lesson Assistant webpage" class="image-small"> <br>
-              <a href="http://horse-lesson-assistant-mae.herokuapp.com/" class="postLink">Horse Lesson Assistant</a><br>
-              <br>
+              <div class="col-lg-4 center bump">
+                <img src="/img/HLA_General_Login.png" alt="Screenshot of Horse Lesson Assistant webpage" class="image-max"> <br>
+                <a href="http://horse-lesson-assistant-mae.herokuapp.com/" class="postLink">Horse Lesson Assistant</a>
+              </div>
               <p>For my final project I created: Horse Lesson Assistant. I have been riding horses for over twenty years, and I have owned my own horse for for about a year of that time. I have had the opportunity to ride so many wonderful lesson horses that have helped me to become a better rider over the years. At the last farm I rode I, my horse assignment was usually given to me by my instructor via text message right before the lesson, and often times it was a horse that I had never seen before that I would have to go catch from the pasture. One such example was catch the grey horse from the gelding's field. I inquired to my instructor if there was any other greys, so that I did not mistakenly catch the wrong one. She let me know that there were three of them, but the one that I was going to ride was the fattest one. Keep in mind that the gelding's field is quite large, a bit hilly, and naturally the horses hang out on the far sides and back in small groups, so it's really not that easy to compare horses side by side. So I would find the nearest grey, take a picture and send it to my instructor to determine if I located the correct one. After a while I began creating folders on my phone with each horse's name, and pictures of their body, faces, and legs to show any identifying markers to assist in catching the correct one. When we were told we needed to come up with an idea for a solo final project, creating something to help with lesson horse assigment instantly came to mind.</p>
               <br>
               <p>I wanted a fairly straight forward app, that would be quick to load when standing in the middle of a pasture trying to determine which if the three grey horses I actually need to catch. There are two main user types: Instructors and Students. The instructors can view and modify the farm information (containing the helpful contact information, stall and pasture layout pictures). They can view the students contact information. They have the ability to add, edit and view the current horses, including adding up to four pictures, tack and pasture/stall information. They also have the ability to mark the horse as temporarily un usable, to prevent it from being booked in any future lessons, and to have a message appear on any existing lessons that the horse is unavailable. Instructors have the ability to add lessons and the student, instructor, horses, and location drop downs are all pulled dynamically from the database. Students also have the ability to request a lesson, and that lesson will be set to pending until approved by the instructor. I am really happy with the first release of Horse Lesson Assistant.</p>
@@ -507,7 +518,6 @@
         <a class="postLink" href="#weekSeven">Week 7</a>
         <a class="postLink" href="#weekEight">Week 8</a>
         <a class="postLink" href="#weekNine">Final Project</a>
-      <!-- <div class="image-small">Image</div> -->
     </div>
     <div class="card">
         <div class="container-fluid">
