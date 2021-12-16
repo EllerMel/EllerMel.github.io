@@ -11,7 +11,7 @@ Vue.component('date', {
             return currDate = (day[today.getDay()] + ' ' + month[today.getMonth()] + ' ' + dd + ', ' + yyyy);
         }
     },
-    template: `<h3>{{ formatDate }}</h3>`
+    template: `<h2>{{ formatDate }}</h2>`
 })
 
 Vue.component('clock', {
@@ -73,7 +73,7 @@ Vue.component('clock', {
             return this.standardHrs + ":" + this.mins + " " + this.meridiem
         }
     },
-    template: `<h3>{{ getStandardTime }}</h3>`
+    template: `<h2>{{ getStandardTime }}</h2>`
 })
 
 
