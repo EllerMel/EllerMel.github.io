@@ -4,42 +4,48 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  padding: 20px;
+  padding: 1.25rem;
   background: #f1f1f1;
 }
 
 .header {
-  padding: 30px;
-  font-size: 40px;
+  padding: 1.875rem;
+  font-size: 2.5rem;
   text-align: center;
   background: lightgrey;
 }
 
 .blogHeader {
-  padding: 10px;
-  font-size: 40px;
+  padding: 0.625rem;
+  font-size: 2.5rem;
   text-align: center;
   background: white;
 }
 
 .name {
   color: #636b6f;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 200;
 }
 
 .blog-title {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .job-title {
   color: black;
+  font-size: 1.5rem;
+}
+
+.posts-title {
+  color: black;
+  font-family: cursive;
 }
 
 .btn-info {
   background-color: #008298;
   border-color: #008298;
-  min-width: 175px;
+  min-width: 10.938rem;
 }
 
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
@@ -49,7 +55,7 @@ body {
   margin-top: 0;
 }
 .dropdown-toggle{
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
 }
 .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
   margin-bottom: 0;
@@ -63,15 +69,15 @@ body {
 .leftcolumn {   
   float: left;
   width: 75%;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /* Images */
@@ -103,8 +109,8 @@ body {
 
 .card {
    background-color: white;
-   padding: 20px;
-   margin-top: 20px;
+   padding: 1.25rem;
+   margin-top: 1.25rem;
 }
 
 /* Clear floats after the columns */
@@ -115,22 +121,22 @@ body {
 }
 
 .footer {
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
   background: #ddd;
-  margin-top: 20px;
-  font-size: 55px;
+  margin-top: 1.25rem;
+  font-size: 3.438rem;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 50em) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
-    padding: 0;
+    padding: 0 0.625rem;
   }
   .btn-info {
-    min-height: 60px;
-    min-width: 152px;
+    min-height: 3.75rem;
+    min-width: 9.5rem;
   }
 }
 
@@ -165,7 +171,7 @@ body {
  }
 
 h3{
-  font-family: cursive;
+  color: #7C55BA;
 }
 
  h4{
@@ -178,7 +184,7 @@ h3{
 
 .text {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 1.563rem;
   color: #7C55BA;
   font-size: 2.0em;
   font-family: 'Raleway', sans-serif;
@@ -211,16 +217,16 @@ a:hover + div {
 }
 
 .bump{
-  padding-bottom: 25px;
+  padding-bottom: 1.563rem;
 }
 
 .dateTime {
-    padding-right: 50px;
+    padding-right: 3.125rem;
 }
 
  /* Style the Image Used to Trigger the Modal */
  .myImg {
-  border-radius: 5px;
+  border-radius: 0.313rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -232,7 +238,7 @@ a:hover + div {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 6.25rem; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -247,7 +253,7 @@ a:hover + div {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -255,11 +261,11 @@ a:hover + div {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 43.75rem;
   text-align: center;
   color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+  padding: 0.625rem 0;
+  height: 9.375rem;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -283,10 +289,10 @@ a:hover + div {
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 0.938rem;
+  right: 2.188rem;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -299,7 +305,7 @@ a:hover + div {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 43.75em){
   .modal-content {
       width: 100%;
   }
